@@ -1,0 +1,105 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6d327;
+  background-image: linear-gradient(315deg, #f9f500 0%, #f52fac 74%);
+  font-family:'Comfortaa', cursive ;
+}
+
+
+.navbar {
+ margin: -2.3em 0 7em; 
+ background-color: #7209b7;
+ color: #f9f500;
+ border-radius: 0px 0px 10px 10px;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+form {
+  text-align: center;
+  width: 90%;
+  background-color: #ff2d8ba2;
+  padding: 20px;
+  color: #f9f500;
+  border-radius: 20px;
+}
+
+
+form input::placeholder {
+  width: 15em;
+  margin: 3px;
+  height: 2em;
+  color: #7109b77b;
+}
+
+
+form .btn {
+  margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #7209b7;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #f9f500;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+
+.fas {
+  font-size: 2.5em;  
+  border-radius: 50%;
+  padding: 40px;
+}
+
+
+.fa-plane {
+  color: #f9f500;
+}
+.fa-wallet {
+  color: #7209b7;
+}
+.fa-money-bill-wave-alt{
+  color: #f52fac;
+}
+
+
+.container-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1em;
+}
+
+
+.container-data h6 {
+  text-align: center;
+}
